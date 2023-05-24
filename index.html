@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Access-Control-Allow-Methods" content="GET, POST, PUT, DELETE, OPTIONS">
+    <title>JAMPA City RP - A Cidade mais dinâmica de rolepay</title>
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts/tokenverify.js"></script>
+    <script src="scripts/databaseconnection.js"></script>
+    <script src="./node_modules/qrcode-generator/qrcode.js"></script>
+    <script src="./node_modules/jsqr/dist/jsQR.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="pixpayment.js"></script>
+  </head>
+  <body>
+    <div id="steamid-dialog" title="Insira seu SteamID">
+    </div>
+    <style>
+        h1 {
+          text-align: center;
+          font-size: 36px;
+          font-weight: bold;
+          color: #333;
+          padding-top: 20px;
+          margin-bottom: 20px;
+        }
+        h2 {
+            background: #393939;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+          font-size: 32px;
+          font-weight: bold;
+          color: #d7d7d7;
+          padding-top: 10px;
+          margin-bottom: 20px;
+        }
+      </style>
+    <h1>Jampa City RP</h1>
+      
+      <ul class="submenu">
+        <button id="botao-casas" class="selecionado" onclick="exibirProdutosCasas()">Casas</button>
+        <button id="botao-veiculos" onclick="exibirProdutosVeiculos()">Veículos</button>
+        <button id="botao-vips" onclick="exibirProdutosVips()">VIPs</button>
+      </ul>
+      <h2 id="titulo-categoria">Produtos à Venda - Casas</h2>
+    <div id="particles-js"></div>
+    <div id="produtos-container"></div>
+    <script src="scripts/produtos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts/particles.js"></script>
+  </body>
+</html>

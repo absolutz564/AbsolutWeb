@@ -1,0 +1,29 @@
+{
+  "name": "absolut-web",
+  "version": "1.0.0",
+  "main": "tokenverify.js",
+  "dependencies": {
+    "crc": "^4.3.2",
+    "crc-itu": "^0.1.0",
+    "faz-um-pix": "^2.0.2",
+    "jsqr": "^1.4.0",
+    "mysql": "^2.18.1",
+    "node": "^19.8.1",
+    "nvm": "0.0.4",
+    "qrcode": "^1.5.1",
+    "qrcode-generator": "^1.4.4",
+    "qrcode-pix": "^5.0.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
